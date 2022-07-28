@@ -17,7 +17,8 @@ public class SalesManager {
     public long trimAverage() {
         long max = 0;
         long min = sales[0];
-        long sum = 0;
+        long
+                sum = 0;
         for (int i = 1; i < sales.length; i++) {
             if (sales[i] <= min) {
                 sum += min;
